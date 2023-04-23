@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "snakeGame",
-    "slug": "snakeGame",
+    "slug": "snakecolors",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zeroprogramming.snakecolors"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb875f19-9700-494e-b033-70b861cfac09"
+      }
+    },
+    "owner": "zeroprogramming"
   }
 }
